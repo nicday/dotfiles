@@ -1,0 +1,25 @@
+
+[selection]
+save_to_clipboard = true
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[window]
+decorations = "None"
+padding = { x = 2, y = 2 }
+
+[font]
+normal.family = "Menlo"
+size = 13
+
+[cursor]
+style.blinking = "Always"
+blink_interval = 500
+
+[general]
+import = [
+  "~/.config/alacritty/tokyo-night.toml",
+  "~/.config/alacritty/keybindings.toml",
+]

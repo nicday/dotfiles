@@ -1,0 +1,3 @@
+--asset-pipeline=propshaft
+--skip-jbuilder
+--skip-action-text
