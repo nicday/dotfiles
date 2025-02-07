@@ -2,6 +2,8 @@
 
 set -e
 
+SETUP_SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
 current_status() {
   printf "\e[33m⭑\e[0m %s\n" "$1"
 }
@@ -21,13 +23,13 @@ fi
 
 
 # Step: dotfiles
-dotfiles=(.gemrc .railsrc .zshrc) 
+dotfiles=(.gemrc .railsrc .zshrc Brewfile) 
 
 for file in "${dotfiles[@]}"
 do
   current_status "Linking ${file}"
   rm -f ~/$file
-  link_file ~/.config/$file ~/$file
+  link_file $SETUP_SCRIPT_DIR/$file ~/$file
 done
 
 
@@ -40,8 +42,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   fi;
 
   current_status "Installing via brew"
-  brew install -q neovim font-fira-code-nerd-font alacritty hammerspoon raycast
-  brew install --cask keepingyouawake
+  brew bundle --file=~/Brewfile
 fi
 
 current_status "Installation successful 🚀"
