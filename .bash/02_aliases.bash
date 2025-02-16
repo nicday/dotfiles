@@ -1,6 +1,6 @@
 
 
-alias aliases="cat ~/.config/bash/*alias* | grep alias | sort | sed -e \"s/^alias\ //\" | column -t -s'='"
+alias aliases="cat ~/.bash/*alias* | grep alias | sort | sed -e \"s/^alias\ //\" | column -t -s'='"
 alias bx="bundle exec"
 alias dotf="cd ~/dotfiles"
 alias v="nvim"
@@ -8,7 +8,6 @@ alias ls="ls -al"
 alias ..="cd .."
 alias ...="cd ../.."
 
-alias rlias=". ~/.config/bash/*alias*"
 alias whatsmyip='curl -s https://am.i.mullvad.net/json | jq'
 
 # Git

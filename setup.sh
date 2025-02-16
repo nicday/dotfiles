@@ -32,6 +32,16 @@ do
   link_file $SETUP_SCRIPT_DIR/$file ~/$file
 done
 
+# Setup: setup bash directory
+mkdir -p ~/.bash
+for file in $SETUP_SCRIPT_DIR/.bash/*.bash; do
+  filename=$(basename "$file")
+
+  current_status "Linking ${file}"
+  rm -f "$HOME/.bash/$filename"
+  link_file "$file" "$HOME/.bash/$filename"
+done
+
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
 

@@ -7,6 +7,10 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+for file in ~/.bash/*.bash; do
+  source "${file}"
+done
+
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init - zsh)"
 
