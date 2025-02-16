@@ -14,7 +14,7 @@ SRC_DIR="$HOME/src/github.com"
 mkdir -p "$SRC_DIR"
 
 # Install clone dotfiles
-DOTFILES_REPO="https://github.com/nicday/dotfiles.git"
+DOTFILES_REPO="git@github.com:nicday/dotfiles.git"
 DOTFILES_DIR="$SRC_DIR/nicday/dotfiles"
 
 if [ ! -d "$DOTFILES_DIR" ]; then
