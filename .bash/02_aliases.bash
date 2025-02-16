@@ -2,7 +2,7 @@
 
 alias aliases="cat ~/.bash/*alias* | grep alias | sort | sed -e \"s/^alias\ //\" | column -t -s'='"
 alias bx="bundle exec"
-alias dotf="cd ~/dotfiles"
+alias dotf="cd ~/.dotfiles"
 alias v="nvim"
 alias ls="ls -al"
 alias ..="cd .."

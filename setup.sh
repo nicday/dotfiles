@@ -29,7 +29,7 @@ for file in "${dotfiles[@]}"
 do
   current_status "Linking ${file}"
   rm -f ~/$file
-  link_file $SETUP_SCRIPT_DIR/$file ~/$file
+  link_file "$SETUP_SCRIPT_DIR/$file" "$HOME/$file"
 done
 
 # Setup: setup bash directory
@@ -53,6 +53,13 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 
   current_status "Installing via brew"
   brew bundle --file=~/Brewfile
+fi
+
+# Symlink this directory into the home directory for convenience
+if [[ -L "$HOME/.dotfiles" ]]; then
+  echo "$HOME/.dotfiles already exists, skipping..."
+else
+  link_file "$SETUP_SCRIPT_DIR" "$HOME/.dotfiles"
 fi
 
 current_status "Installation successful 🚀"
