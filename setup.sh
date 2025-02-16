@@ -42,17 +42,20 @@ for file in $SETUP_SCRIPT_DIR/.bash/*.bash; do
   link_file "$file" "$HOME/.bash/$filename"
 done
 
-
 if [[ "$OSTYPE" == "darwin"* ]]; then
-
-# Step: Homebrew
+  # Step: Homebrew
   if ! which brew > /dev/null; then
     current_status "Installing homebrew"
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   fi;
 
   current_status "Installing via brew"
-  brew bundle --file=~/Brewfile
+  brew bundle --file=$SETUP_SCRIPT_DIR/Brewfile.common
+
+  if [ -n "${BREWFILE}" ]; then
+      current_status "Applying Brewfile: $SETUP_SCRIPT_DIR/Brewfile.$BREWFILE"
+      brew bundle --file=$SETUP_SCRIPT_DIR/Brewfile.$BREWFILE
+  fi
 fi
 
 # Symlink this directory into the home directory for convenience
