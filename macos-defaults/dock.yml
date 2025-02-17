@@ -1,0 +1,34 @@
+---
+description: com.apple.Dock
+kill: ["Dock"]
+data:
+  com.apple.Dock:
+    # Automatically hide the dock
+    autohide: true
+    autohide-delay: 0
+    autohide-time-modifer: 0
+
+    # Animate showing the dock with the genie effect
+    mineffect: genie
+
+    # Don't show recent applications in the Dock
+    show-recents: false
+
+    # Wipe all (default) app icons from the Dock
+    persistent-apps: []
+
+    # Wipre all (default) folders from the Dock
+    persistent-others: []
+
+
+    # Bottom left hot corner: Lock screen with cmd key
+    wvous-bl-corner: 13
+    wvous-bl-modifier: 1048576
+    
+    # Turn off other hot corners
+    wvous-br-corner: 0
+    wvous-br-modifier: 0
+    wvous-tl-corner: 0
+    wvous-tl-modifier: 0
+    wvous-tr-corner: 0
+    wvous-tr-modifier: 0

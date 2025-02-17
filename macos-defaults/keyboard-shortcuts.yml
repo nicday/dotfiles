@@ -1,0 +1,87 @@
+---
+description: com.apple.symbolicHotKeys
+sudo: false
+current_host: false
+data:
+  com.apple.symbolicHotKeys:
+    AppleSymbolicHotKeys:
+      "25":
+        enabled: false
+      "18":
+        enabled: false
+      "26":
+        enabled: false
+      "19":
+        enabled: false
+      "79":
+        enabled: true
+      "64":
+        enabled: true
+        value:
+          type: standard
+          parameters:
+            - 32
+            - 49
+            - 262144
+      "65":
+        enabled: false
+        value:
+          type: standard
+          parameters:
+            - 32
+            - 49
+            - 1572864
+      "20":
+        enabled: false
+      "80":
+        enabled: true
+      "21":
+        enabled: false
+      "81":
+        enabled: true
+      "22":
+        enabled: false
+      "15":
+        enabled: false
+      "82":
+        enabled: true
+      "52":
+        enabled: false
+        value:
+          type: standard
+          parameters:
+            - 100
+            - 2
+            - 1572864
+      "60":
+        enabled: false
+        value:
+          type: standard
+          parameters:
+            - 32
+            - 49
+            - 262144
+      "16":
+        enabled: false
+      "23":
+        enabled: false
+      "164":
+        enabled: false
+        value:
+          type: standard
+          parameters:
+            - 65535
+            - 65535
+            - 0
+      "61":
+        value:
+          type: standard
+          parameters:
+            - 32
+            - 49
+            - 786432
+        enabled: false
+      "17":
+        enabled: false
+      "24":
+        enabled: false

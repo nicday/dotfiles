@@ -1,0 +1,539 @@
+---
+description: com.apple.Finder
+sudo: false
+current_host: false
+data:
+  com.apple.Finder:
+    CopyProgressWindowLocation: "{556, 258}"
+    DesktopViewSettings:
+      IconViewSettings:
+        backgroundColorBlue: 1.0
+        iconSize: 64.0
+        textSize: 12.0
+        backgroundColorRed: 1.0
+        backgroundType: 0
+        backgroundColorGreen: 1.0
+        gridOffsetX: 0.0
+        gridOffsetY: 0.0
+        showItemInfo: false
+        viewOptionsVersion: 1
+        arrangeBy: none
+        labelOnBottom: true
+        showIconPreview: true
+        gridSpacing: 54.0
+    DownloadsFolderListViewSettingsVersion: 1
+    EmptyTrashProgressWindowLocation: "{556, 258}"
+    FK_AppCentricShowSidebar: true
+    FK_DefaultIconViewSettings:
+      backgroundColorBlue: 1.0
+      gridSpacing: 54.0
+      textSize: 12.0
+      backgroundColorRed: 1.0
+      backgroundType: 0
+      backgroundColorGreen: 1.0
+      gridOffsetX: 0.0
+      gridOffsetY: 0.0
+      showItemInfo: true
+      viewOptionsVersion: 1
+      arrangeBy: name
+      labelOnBottom: true
+      showIconPreview: true
+      iconSize: 64.0
+    FK_DefaultListViewSettings:
+      iconSize: 16
+      showIconPreview: true
+      columns:
+        -
+          width: 300
+          ascending: true
+          identifier: name
+          visible: true
+        -
+          visible: false
+          width: 181
+          ascending: false
+          identifier: dateModified
+        -
+          width: 181
+          ascending: false
+          identifier: dateCreated
+          visible: false
+        -
+          width: 97
+          ascending: false
+          identifier: size
+          visible: true
+        -
+          width: 115
+          ascending: true
+          identifier: kind
+          visible: true
+        -
+          width: 100
+          ascending: true
+          identifier: label
+          visible: false
+        -
+          width: 75
+          ascending: true
+          identifier: version
+          visible: false
+        -
+          width: 300
+          ascending: true
+          identifier: comments
+          visible: false
+        -
+          width: 200
+          ascending: false
+          identifier: dateLastOpened
+          visible: false
+        -
+          width: 200
+          ascending: false
+          identifier: shareOwner
+          visible: false
+        -
+          width: 200
+          ascending: false
+          identifier: shareLastEditor
+          visible: false
+        -
+          width: 181
+          ascending: false
+          identifier: dateAdded
+          visible: true
+      calculateAllSizes: false
+      textSize: 13
+      sortColumn: dateAdded
+      useRelativeDates: true
+      viewOptionsVersion: 1
+    FK_StandardViewOptions2:
+      ColumnViewOptions:
+        ArrangeBy: dnam
+        ColumnShowFolderArrow: true
+        ShowPreview: true
+        FontSize: 13
+        SharedArrangeBy: kipl
+        ShowIconThumbnails: true
+        ColumnShowIcons: true
+        PreviewDisclosureState: true
+        ColumnWidth: 245
+    FK_StandardViewSettings:
+      SettingsType: FK_StandardViewSettings
+      ExtendedListViewSettingsV2:
+        useRelativeDates: true
+        showIconPreview: true
+        columns:
+          -
+            ascending: true
+            identifier: name
+            width: 300
+            visible: true
+          -
+            ascending: false
+            identifier: dateModified
+            width: 181
+            visible: true
+          -
+            ascending: false
+            identifier: dateCreated
+            width: 181
+            visible: false
+          -
+            ascending: false
+            identifier: size
+            width: 97
+            visible: true
+          -
+            ascending: true
+            identifier: kind
+            width: 115
+            visible: true
+          -
+            ascending: true
+            identifier: label
+            width: 100
+            visible: false
+          -
+            ascending: true
+            identifier: version
+            width: 75
+            visible: false
+          -
+            ascending: true
+            identifier: comments
+            width: 300
+            visible: false
+          -
+            ascending: false
+            identifier: dateLastOpened
+            width: 200
+            visible: false
+          -
+            ascending: false
+            identifier: shareOwner
+            width: 200
+            visible: false
+          -
+            ascending: false
+            identifier: shareLastEditor
+            width: 200
+            visible: false
+        calculateAllSizes: false
+        textSize: 13
+        sortColumn: name
+        iconSize: 16
+        viewOptionsVersion: 1
+      IconViewSettings:
+        backgroundColorBlue: 1.0
+        gridSpacing: 54.0
+        textSize: 12.0
+        backgroundColorRed: 1.0
+        backgroundType: 0
+        backgroundColorGreen: 1.0
+        gridOffsetX: 0.0
+        gridOffsetY: 0.0
+        showItemInfo: false
+        viewOptionsVersion: 1
+        arrangeBy: none
+        labelOnBottom: true
+        iconSize: 64.0
+        showIconPreview: true
+      ListViewSettings:
+        useRelativeDates: true
+        showIconPreview: true
+        columns:
+          comments:
+            visible: false
+            width: 300
+            ascending: true
+            index: 7
+          name:
+            visible: true
+            width: 300
+            ascending: true
+            index: 0
+          dateCreated:
+            visible: false
+            width: 181
+            ascending: false
+            index: 2
+          size:
+            visible: true
+            width: 97
+            ascending: false
+            index: 3
+          label:
+            visible: false
+            width: 100
+            ascending: true
+            index: 5
+          kind:
+            visible: true
+            width: 115
+            ascending: true
+            index: 4
+          version:
+            visible: false
+            width: 75
+            ascending: true
+            index: 6
+          dateLastOpened:
+            visible: false
+            width: 200
+            ascending: false
+            index: 8
+          dateModified:
+            visible: true
+            width: 181
+            ascending: false
+            index: 1
+        calculateAllSizes: false
+        textSize: 13
+        sortColumn: name
+        iconSize: 16
+        viewOptionsVersion: 1
+    FXArrangeGroupViewBy: Name
+    FXDesktopTouchBarUpgradedToTenTwelveOne: 1
+    FXDesktopVolumePositions:
+      Firefox_0x1.6a624c4p+29:
+        xRelative: -65
+        ScreenID: 0
+        AnchorRelativeTo: 1
+        yRelative: 78
+      Proton Mail_0x1.6858a548p+29:
+        xRelative: -65
+        ScreenID: 0
+        AnchorRelativeTo: 1
+        yRelative: 78
+      Backups of Nic’s MacBook Pro (2)_0x1.6b1dfb09c839dp+29:
+        xRelative: -65
+        ScreenID: 0
+        AnchorRelativeTo: 1
+        yRelative: 65
+    FXDetachedDesktopProviderID: ""
+    FXDetachedDocumentsProviderID: ""
+    FXEnableExtensionChangeWarning: false
+    FXICloudDriveDesktop: false
+    FXICloudDriveDocuments: false
+    FXICloudDriveEnabled: true
+    FXICloudLoggedIn: true
+    FXPreferencesWindow.Location: "{{1920, 223}, {377, 380}}"
+    FXPreferredSearchViewStyleVersion: "%00%00%00%01"
+    FXPreferredViewStyle: Nlsv
+    FXQuickActionsConfigUpgradeLevel: 3
+    FXRecentFolders:
+      -
+        file-bookmark: 626f6f6b9802000000000410300000000000000000000000000000000000000000000000000000000000000000000000880100000400000003030000000200200500000001010000557365727300000006000000010100006e6963646179000007000000010100004465736b746f70000c00000001060000100000002000000030000000080000000403000064420000000000000800000004030000c0280400000000000800000004030000c5280400000000000c00000001060000540000006400000074000000080000000004000041c682259d5fed7f180000000102000002000000000000000f0000000000000000000000000000000000000001050000080000000403000001000000000000000400000003030000f5010000080000000109000066696c653a2f2f2f0c000000010100004d6163696e746f736820484408000000040300000050a11b73000000080000000004000041c69c8527000000240000000101000043463844333238302d454532412d343132332d393735452d41323341444245374137424318000000010200008100000001000000ef13000001000000000000000000000001000000010100002f000000d8000000feffffff01000000000000001100000004100000400000000000000005100000840000000000000010100000a800000000000000401000009800000000000000022000007c0100000000000005200000ec0000000000000010200000fc00000000000000112000003001000000000000122000001001000000000000132000002001000000000000202000005c0100000000000030200000c80000000000000001c00000d00000000000000011c00000200000000000000012c00000e00000000000000001d00000c80000000000000010d000000400000000000000
+        name: Desktop
+      -
+        file-bookmark: 626f6f6b300300000000041030000000000000000000000000000000000000000000000000000000000000000000000044020000040000000303000000020020060000000101000053797374656d000007000000010100004c696272617279000c00000001010000436f726553657276696365730a0000000101000046696e6465722e61707000000800000001010000436f6e74656e747309000000010100005265736f75726365730000000b000000010100004d794c69627261726965730018000000010100006d79446f63756d656e74732e63616e6e656453656172636820000000010600001000000020000000300000004400000058000000680000007c00000090000000080000000403000017000000ffffff0f0800000004030000f0840000ffffff0f0800000004030000afbb0200ffffff0f080000000403000000e00200ffffff0f080000000403000001e00200ffffff0f080000000403000072e10200ffffff0f08000000040300001ae20200ffffff0f0800000004030000cae20200ffffff0f2000000001060000d8000000e8000000f80000000801000018010000280100003801000048010000080000000004000041c69c8527000000180000000102000002000000000000000f0000000000000000000000000000000000000001050000080000000109000066696c653a2f2f2f0c000000010100004d6163696e746f736820484408000000040300000050a11b73000000240000000101000043463844333238302d454532412d343132332d393735452d41323341444245374137424318000000010200008100000001000000ef13000001000000000000000000000001000000010100002f000000b4000000feffffff01000000000000000e00000004100000b00000000000000005100000580100000000000010100000900100000000000040100000800100000000000002200000380200000000000005200000b80100000000000010200000c80100000000000011200000ec0100000000000012200000dc0100000000000013200000800100000000000020200000180200000000000030200000b00100000000000001d00000b00100000000000010d000000400000000000000
+        name: Recents
+      -
+        file-bookmark: 626f6f6bfc02000000000410300000000000000000000000000000000000000000000000000000000000000000000000ec0100000400000003030000000200200500000001010000557365727300000006000000010100006e6963646179000007000000010100004c6962726172790010000000010100004d6f62696c6520446f63756d656e74731300000001010000636f6d7e6170706c657e436c6f7564446f63730014000000010600001000000020000000300000004000000058000000080000000403000064420000000000000800000004030000c0280400000000000800000004030000c72804000000000008000000040300006cc017000000000008000000040300006dc0170000000000140000000106000090000000a0000000b0000000c0000000d0000000080000000004000041c6b126c14b7a4e180000000102000002000000000000000f0000000000000000000000000000000000000001050000080000000403000003000000000000000400000003030000f5010000080000000109000066696c653a2f2f2f0c000000010100004d6163696e746f736820484408000000040300000050a11b73000000080000000004000041c69c8527000000240000000101000043463844333238302d454532412d343132332d393735452d41323341444245374137424318000000010200008100000001000000ef13000001000000000000000000000001000000010100002f000000d8000000feffffff01000000000000001100000004100000740000000000000005100000e000000000000000101000000c0100000000000040100000fc0000000000000002200000e00100000000000005200000500100000000000010200000600100000000000011200000940100000000000012200000740100000000000013200000840100000000000020200000c001000000000000302000002c0100000000000001c00000340100000000000011c00000200000000000000012c00000440100000000000001d000002c0100000000000010d000000400000000000000
+        name: iCloud Drive
+      -
+        file-bookmark: 626f6f6bfc01000000000410300000000000000000000000000000000000000000000000000000000000000000000000100100000400000003030000000200200c000000010100004170706c69636174696f6e73040000000106000010000000080000000403000054c4060000000000040000000106000030000000080000000004000041c69c8527000000180000000102000002000000000000000f0000000000000000000000000000000000000001050000080000000109000066696c653a2f2f2f0c000000010100004d6163696e746f736820484408000000040300000050a11b73000000240000000101000043463844333238302d454532412d343132332d393735452d41323341444245374137424318000000010200008100000001000000ef13000001000000000000000000000001000000010100002f000000b4000000feffffff01000000000000000e000000041000002400000000000000051000004000000000000000101000005c00000000000000401000004c0000000000000002200000040100000000000005200000840000000000000010200000940000000000000011200000b80000000000000012200000a800000000000000132000004c0000000000000020200000e400000000000000302000007c0000000000000001d000007c0000000000000010d000000400000000000000
+        name: Applications
+      -
+        file-bookmark: 626f6f6b9c020000000004103000000000000000000000000000000000000000000000000000000000000000000000008c0100000400000003030000000200200500000001010000557365727300000006000000010100006e696364617900000900000001010000446f776e6c6f6164730000000c00000001060000100000002000000030000000080000000403000064420000000000000800000004030000c0280400000000000800000004030000f3280400000000000c00000001060000580000006800000078000000080000000004000041c682259d6024a9180000000102000002000000000000000f0000000000000000000000000000000000000001050000080000000403000001000000000000000400000003030000f5010000080000000109000066696c653a2f2f2f0c000000010100004d6163696e746f736820484408000000040300000050a11b73000000080000000004000041c69c8527000000240000000101000043463844333238302d454532412d343132332d393735452d41323341444245374137424318000000010200008100000001000000ef13000001000000000000000000000001000000010100002f000000d8000000feffffff01000000000000001100000004100000440000000000000005100000880000000000000010100000ac00000000000000401000009c0000000000000002200000800100000000000005200000f00000000000000010200000000100000000000011200000340100000000000012200000140100000000000013200000240100000000000020200000600100000000000030200000cc0000000000000001c00000d40000000000000011c00000200000000000000012c00000e40000000000000001d00000cc0000000000000010d000000400000000000000
+        name: Downloads
+      -
+        file-bookmark: 626f6f6b9402000000000410300000000000000000000000000000000000000000000000000000000000000000000000840100000400000003030000000200200500000001010000557365727300000006000000010100006e6963646179000004000000010100002e7373680c00000001060000100000002000000030000000080000000403000064420000000000000800000004030000c02804000000000008000000040300006a261800000000000c00000001060000500000006000000070000000080000000004000041c6b13fa1f8f8e8180000000102000002000000000000000f0000000000000000000000000000000000000001050000080000000403000001000000000000000400000003030000f5010000080000000109000066696c653a2f2f2f0c000000010100004d6163696e746f736820484408000000040300000050a11b73000000080000000004000041c69c8527000000240000000101000043463844333238302d454532412d343132332d393735452d41323341444245374137424318000000010200008100000001000000ef13000001000000000000000000000001000000010100002f000000d8000000feffffff010000000000000011000000041000003c0000000000000005100000800000000000000010100000a40000000000000040100000940000000000000002200000780100000000000005200000e80000000000000010200000f800000000000000112000002c01000000000000122000000c01000000000000132000001c0100000000000020200000580100000000000030200000c40000000000000001c00000cc0000000000000011c00000200000000000000012c00000dc0000000000000001d00000c40000000000000010d000000400000000000000
+        name: ".ssh"
+    FXRemoveOldTrashItems: true
+    FXSidebarUpgradedSharedSearchToTwelve: true
+    FXSidebarUpgradedToTenFourteen: true
+    FXSidebarUpgradedToTenTen: true
+    FXSyncExtensionToolbarItemsPendingAdd: []
+    FXSyncExtensionToolbarItemsPendingRemove: []
+    FXToolbarUpgradedToTenEight: 1
+    FXToolbarUpgradedToTenNine: 2
+    FXToolbarUpgradedToTenSeven: 1
+    FavoriteTagNames:
+      - ""
+      - Red
+      - Orange
+      - Yellow
+      - Green
+      - Blue
+      - Purple
+      - Gray
+    ICloudViewSettings:
+      WindowState:
+        ContainerShowSidebar: true
+        ShowStatusBar: false
+        ShowSidebar: true
+        ShowToolbar: true
+        ShowTabView: false
+        WindowBounds: "{{296, 381}, {920, 436}}"
+    LastTrashState: true
+    MeetingRoomViewSetting:
+      CustomViewStyleVersion: 1
+      WindowState:
+        ContainerShowSidebar: true
+        ShowStatusBar: false
+        ShowSidebar: true
+        ShowToolbar: true
+        ShowTabView: false
+        WindowBounds: "{{296, 381}, {920, 436}}"
+    NSToolbar Configuration Browser:
+      TB Is Shown: true
+      TB Icon Size Mode: 1
+      TB Size Mode: 1
+      TB Display Mode: 2
+    NetworkViewSettings:
+      CustomViewStyleVersion: 1
+      WindowState:
+        ContainerShowSidebar: true
+        ShowStatusBar: false
+        ShowSidebar: true
+        ShowToolbar: true
+        ShowTabView: false
+        WindowBounds: "{{687, 296}, {920, 436}}"
+    NewWindowTarget: PfCm
+    PreferencesWindow.LastSelection: ADVD
+    RecentMoveAndCopyDestinations:
+      - "file:///Users/nicday/.ssh/backup/"
+      - "file:///Users/nicday/.ssh/"
+      - "file:///Applications/"
+    RecentsArrangeGroupViewBy: Date Last Opened
+    SearchRecentsSavedViewStyle: Nlsv
+    SearchRecentsSavedViewStyleVersion: "%00%00%00%01"
+    SearchRecentsViewSettings:
+      WindowState:
+        ContainerShowSidebar: true
+        ShowStatusBar: false
+        ShowSidebar: true
+        ShowToolbar: true
+        ShowTabView: false
+        WindowBounds: "{{2607, 296}, {920, 436}}"
+    ShowExternalHardDrivesOnDesktop: true
+    ShowHardDrivesOnDesktop: false
+    ShowRecentTags: false
+    ShowRemovableMediaOnDesktop: true
+    ShowSidebar: true
+    SidebarDevicesSectionDisclosedState: true
+    SidebarPlacesSectionDisclosedState: true
+    SidebarShowingSignedIntoiCloud: true
+    SidebarShowingiCloudDesktop: false
+    SidebarTagsSctionDisclosedState: true
+    SidebarWidth: 128.0
+    SidebariCloudDriveSectionDisclosedState: true
+    StandardViewSettings:
+      IconViewSettings:
+        backgroundColorBlue: 1.0
+        gridSpacing: 54.0
+        textSize: 12.0
+        backgroundColorRed: 1.0
+        backgroundType: 0
+        backgroundColorGreen: 1.0
+        gridOffsetX: 0.0
+        gridOffsetY: 0.0
+        showItemInfo: false
+        viewOptionsVersion: 1
+        arrangeBy: none
+        labelOnBottom: true
+        showIconPreview: true
+        iconSize: 64.0
+      ListViewSettings:
+        viewOptionsVersion: 1
+        showIconPreview: true
+        columns:
+          comments:
+            visible: false
+            width: 300
+            ascending: true
+            index: 7
+          dateModified:
+            visible: true
+            width: 181
+            ascending: false
+            index: 1
+          dateCreated:
+            visible: false
+            width: 181
+            ascending: false
+            index: 2
+          size:
+            visible: true
+            width: 97
+            ascending: false
+            index: 3
+          label:
+            visible: false
+            width: 100
+            ascending: true
+            index: 5
+          version:
+            visible: false
+            width: 75
+            ascending: true
+            index: 6
+          kind:
+            visible: true
+            width: 115
+            ascending: true
+            index: 4
+          dateLastOpened:
+            visible: false
+            width: 200
+            ascending: false
+            index: 8
+          name:
+            visible: true
+            width: 300
+            ascending: true
+            index: 0
+        calculateAllSizes: false
+        textSize: 13.0
+        sortColumn: dateModified
+        iconSize: 16.0
+        useRelativeDates: true
+      ExtendedListViewSettingsV2:
+        viewOptionsVersion: 1
+        showIconPreview: true
+        columns:
+          -
+            ascending: true
+            identifier: name
+            width: 300
+            visible: true
+          -
+            ascending: false
+            identifier: ubiquity
+            width: 35
+            visible: false
+          -
+            ascending: false
+            identifier: dateModified
+            width: 181
+            visible: true
+          -
+            ascending: false
+            identifier: dateCreated
+            width: 181
+            visible: false
+          -
+            ascending: false
+            identifier: size
+            width: 97
+            visible: true
+          -
+            ascending: true
+            identifier: kind
+            width: 115
+            visible: true
+          -
+            ascending: true
+            identifier: label
+            width: 100
+            visible: false
+          -
+            ascending: true
+            identifier: version
+            width: 75
+            visible: false
+          -
+            ascending: true
+            identifier: comments
+            width: 300
+            visible: false
+          -
+            ascending: false
+            identifier: dateLastOpened
+            width: 200
+            visible: false
+          -
+            ascending: false
+            identifier: shareOwner
+            width: 200
+            visible: false
+          -
+            ascending: false
+            identifier: shareLastEditor
+            width: 200
+            visible: false
+          -
+            ascending: false
+            identifier: dateAdded
+            width: 181
+            visible: false
+          -
+            visible: false
+            identifier: invitationStatus
+            width: 210
+            ascending: false
+        calculateAllSizes: false
+        textSize: 13.0
+        sortColumn: dateModified
+        iconSize: 16.0
+        useRelativeDates: true
+      GalleryViewSettings:
+        arrangeBy: name
+        iconSize: 48.0
+        showIconPreview: true
+        viewOptionsVersion: 1
+      SettingsType: StandardViewSettings
+    TagsCloudSerialNumber: 7
