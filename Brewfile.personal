@@ -1,6 +1,8 @@
 tap "homebrew/bundle"
 brew "mas"
+brew "rbenv"
 
+cask "firefox"
 cask "obsidian"
 cask "reader"
 cask "chatgpt"

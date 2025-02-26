@@ -12,7 +12,6 @@ for file in ~/.bash/*.bash; do
 done
 
 export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init - zsh)"
 
 export PATH="/usr/local/opt/libpq:$PATH"
 

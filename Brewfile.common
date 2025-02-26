@@ -1,15 +1,14 @@
 tap "homebrew/bundle"
 
 brew "neovim"
-brew "rbenv"
 
-cask "firefox"
 cask "alacritty"
 cask "font-fira-code-nerd-font"
 cask "hammerspoon"
 cask "keepingyouawake"
 cask "raycast"
 cask "karabiner-elements"
+cask "visual-studio-code"
 
 # macOS settings manager
 tap "dsully/tap"
