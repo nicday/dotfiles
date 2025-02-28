@@ -9,6 +9,7 @@ cask "keepingyouawake"
 cask "raycast"
 cask "karabiner-elements"
 cask "visual-studio-code"
+cask "dash"
 
 # macOS settings manager
 tap "dsully/tap"
